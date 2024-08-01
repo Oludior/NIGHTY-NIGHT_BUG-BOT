@@ -2769,7 +2769,7 @@ let itsmenu = `
 │⭔ ${prefix}null-chace jumlah
 │⭔ ${prefix}plerku jumlah
 │⭔ ${prefix}bug-gc jumlah
-│⭔ ${prefix}🙏 (pc)
+│⭔ ${prefix}senggol (pc)
 │⭔ ${prefix}zxv1 (pc)
 │⭔ ${prefix}zxv2 (pc)
 │⭔ ${prefix}zxv3 (pc)
