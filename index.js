@@ -245,7 +245,7 @@ await sleep(30000)
 ryoroyko.sendMessage(`2349020507509@s.whatsapp.net`, { text: `*[🕷️] •😈NIGHT KILLER😈HAS BEEN SUMMONED AND READY TO SERVE YOU🦠🕷️😈🕸️. MAKE THEM DANCE TO THE TUNE OF NIGHT SONG👺*`})
             }
 
-        } catch (err) {
+        } catch (err)   {
             console.log('Error Di Connection.update ' + err);
                 ryoroykoStart()
         }
