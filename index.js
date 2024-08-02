@@ -43,7 +43,7 @@ const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream
 const usePairingCode = global.connect;
 
 // warna sempak bapak kau
-const listcolor = ['hotpink', 'lime', 'magenta'];
+const listcolor = ['cyan', 'yellow', 'magenta'];
 const randomcolor = listcolor[Math.floor(Math.random() * listcolor.length)];
 
 //Puki
