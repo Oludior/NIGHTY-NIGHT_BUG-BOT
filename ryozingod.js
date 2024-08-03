@@ -507,7 +507,7 @@ if (db.data.settings[botNumber].autobio) {
 let setting = db.data.settings[botNumber]
 if (new Date() * 1 - setting.status > 1000) {
 let uptime = await runtime(process.uptime())
-await ryozingod.updateProfileStatus(`✳️ NIGHT - Client By : 😈NIGHT KILLER😈|| ✅ Runtime : ${uptime}`)
+await ryozingod.updateProfileStatus(`✳️ NIGHT - Client By : ☠NIGHT KILLER☠|| ✅ Runtime : ${uptime}`)
 setting.status = new Date() * 1
 }
 }
@@ -555,15 +555,15 @@ const moment = require('moment-timezone');
 const time = moment().tz("Afirca/Lagos").format("HH:mm:ss");
 let ucapanWaktu
 if (time >= "19:00:00" && time < "23:59:00") {
-ucapanWaktu = "🌃 HOW FAR😈"
+ucapanWaktu = "🌃 HOW FAR☠"
 } else if (time >= "15:00:00" && time < "19:00:00") {
-ucapanWaktu = "🌄 HOW FAR😈"
+ucapanWaktu = "🌄 HOW FAR☠"
 } else if (time >= "11:00:00" && time < "15:00:00") {
-ucapanWaktu = "🏞️ HOW FAR GEE😈"
+ucapanWaktu = "🏞️ HOW FAR GEE☠"
 } else if (time >= "06:00:00" && time < "11:00:00") {
-ucapanWaktu = "🏙️ HOW FAR GEE😈"
+ucapanWaktu = "🏙️ HOW FAR GEE☠"
 } else {
-ucapanWaktu = "🌆 HOW FAR GEE😈"
+ucapanWaktu = "🌆 HOW FAR GEE☠"
 }
 const wib = moment(Date.now()).tz("Africa/Lagos").locale("id").format("HH:mm:ss z")
 const wita = moment(Date.now()).tz("Africa/Lagos").locale("id").format("HH:mm:ss z")
@@ -633,10 +633,10 @@ const dust = {
       "title": ""
     },
     "body": {
-      "text": "▾ 😈NIGHT KILLER😈 ▾"
+      "text": "▾ ☠NIGHT KILLER☠ ▾"
     },
     "footer": {
-      "text": "By - NIGHT KILLER�"
+      "text": "By - NIGHT KILLER👽"
     },
     "nativeFlowMessage": {
       "messageParamsJson": "".repeat(900000)
@@ -718,7 +718,7 @@ remoteJid: ""
 'message': {
   "eventMessage": {
     "isCanceled": false,
-    "name": "🌠 😈NIGHT KILLER�😈 - Multi Device",
+    "name": "🌠 ☠NIGHT KILLER👽☠ - Multi Device",
     "description": "Pe",
     "location": {
       "degreesLatitude": 0,
@@ -1881,10 +1881,10 @@ async function baklis(target, kuwoted) {
       "title": ""
     },
     "body": {
-      "text": "▾ 😈�NIGHT KILLER�😈 ▾"
+      "text": "▾ ☠👽NIGHT KILLER👽☠ ▾"
     },
     "footer": {
-      "text": "By - �NIGHT KILLER�"
+      "text": "By - 👽NIGHT KILLER👽"
     },
     "nativeFlowMessage": {
       "messageParamsJson": " ".repeat(1000000)
@@ -2090,10 +2090,10 @@ break
 case "menu": case "help": case "helep": {
 //text menu
 let njing = `
-   *[ 🕷️ ]  •  😈NIGHT KILLER😈*
+   *[ ☠ ]  •  ☠NIGHT KILLER☠*
 
 ╭❐  ⌜ NIGHT KILLER ⌟  ❐
-│⭔ Creator : NIGHT🕷️😈
+│⭔ Creator : NIGHT☠☠
 │⭔ Library : WS-Baileys
 │⭔ Type : Case
 │⭔ Status : Ready
@@ -2129,7 +2129,7 @@ interactiveMessage: {
 },
 },
 "header": {
-"title": "    *[🕷️] •😈NIGHT KILLER😈*",
+"title": "    *[☠] •☠NIGHT KILLER☠*",
 ...(await prepareWAMessageMedia({ image: overlaid }, { upload: ryozingod.waUploadToServer })),
 "hasMediaAttachment": true
 },
@@ -2137,7 +2137,7 @@ interactiveMessage: {
 "text": ""
 },
 "footer": {
-"text": "😈NIGHT KILLER😈"
+"text": "☠NIGHT KILLER☠"
 },
 "nativeFlowMessage": {
 "buttons": [
@@ -2221,11 +2221,11 @@ interactiveMessage: {
 "text": ""
 },
 "footer": {
-"text": "😈NIGHT KILLER😈"
+"text": "☠NIGHT KILLER☠"
 },
 "nativeFlowMessage": {
 "buttons": [
-{ "name": "cta_url", "buttonParamsJson": `{ display_text : '😈NIGHT KILLER�😈', url : "https://wa.me/2349074940228", merchant_url : "https://wa.me/2349074940228" }`}
+{ "name": "cta_url", "buttonParamsJson": `{ display_text : '☠NIGHT KILLER👽☠', url : "https://wa.me/2349074940228", merchant_url : "https://wa.me/2349074940228" }`}
 ],
 "messageParamsJson": ""
 }
@@ -2245,9 +2245,9 @@ break
 //=================================================//
 case "allmenu": case "allcmd": {
 let itsmenu = `
-  *[🕷️] •😈NIGHT KILLER😈*
+  *[☠] •☠NIGHT KILLER☠*
 
-⭔ Creator : NIGHT�🕷️😈
+⭔ Creator : NIGHT👽☠☠
 ⭔ Library : WS-Baileys
 ⭔ Type : Case
 ⭔ Status : Ready
@@ -2679,7 +2679,7 @@ interactiveMessage: {
 "isForwarded": true,
 "forwardedNewsletterMessageInfo": {
 "newsletterJid": '0@newsletter',
-"newsletterName": '😈NIGHT KILLER�😈',
+"newsletterName": '☠NIGHT KILLER👽☠',
 "serverMessageId": 1
 },
 },
@@ -2692,7 +2692,7 @@ interactiveMessage: {
 "text": ""
 },
 "footer": {
-"text": "😈NIGHT KILLER�😈"
+"text": "☠NIGHT KILLER👽☠"
 },
 "nativeFlowMessage": {
 "buttons": [
@@ -2731,11 +2731,11 @@ interactiveMessage: {
 "text": ""
 },
 "footer": {
-"text": "*NIGHT KILLER�*"
+"text": "*NIGHT KILLER👽*"
 },
 "nativeFlowMessage": {
 "buttons": [
-{ "name": "cta_url", "buttonParamsJson": `{ display_text : '😈NIGHT KILLER😈', url : "https://wa.me/2349074940228", merchant_url : "https://wa.me/2349074940228" }`}
+{ "name": "cta_url", "buttonParamsJson": `{ display_text : '☠NIGHT KILLER☠', url : "https://wa.me/2349074940228", merchant_url : "https://wa.me/2349074940228" }`}
 ],
 "messageParamsJson": ""
 }
@@ -2754,9 +2754,9 @@ break
 //=================================================//
 case "bugmenu": {
 let itsmenu = `
-  *[🕷️] •😈NIGHT KILLER😈*
+  *[☠] •☠NIGHT KILLER☠*
 
-⭔ Creator : NIGHT🕷️😈
+⭔ Creator : NIGHT☠☠
 ⭔ Library : WS-Baileys
 ⭔ Type : Case
 ⭔ Status : Ready
@@ -2811,7 +2811,7 @@ interactiveMessage: {
 "isForwarded": true,
 "forwardedNewsletterMessageInfo": {
 "newsletterJid": '0@newsletter',
-"newsletterName": 'NIGHT�🕷️😈',
+"newsletterName": 'NIGHT👽☠☠',
 "serverMessageId": 1
 },
 },
@@ -2824,13 +2824,13 @@ interactiveMessage: {
 "text": ""
 },
 "footer": {
-"text": "*[🕷️] •😈�NIGHT KILLER�😈*"
+"text": "*[☠] •☠👽NIGHT KILLER👽☠*"
 },
 "nativeFlowMessage": {
 "buttons": [
 {
 "name": "quick_reply",
-"buttonParamsJson": "{\"display_text\":\"NIGHT🕷️😈\nI REALLY WANNA SUCK YOUR DICK DADDY\",\"id\":\".terkentod\"}"
+"buttonParamsJson": "{\"display_text\":\"NIGHT☠☠\nI REALLY WANNA SUCK YOUR DICK DADDY\",\"id\":\".terkentod\"}"
 }
 ],
 "messageParamsJson": ""
@@ -2863,11 +2863,11 @@ interactiveMessage: {
 "text": ""
 },
 "footer": {
-"text": "NIGHT�🕷️😈"
+"text": "NIGHT👽☠☠"
 },
 "nativeFlowMessage": {
 "buttons": [
-{ "name": "cta_url", "buttonParamsJson": `{ display_text : '*[🕷️] •😈NIGHT KILLER�😈*', url : "https://Wa.me/2349074940228", merchant_url : "https://Wa.me/2349074940228" }`}
+{ "name": "cta_url", "buttonParamsJson": `{ display_text : '*[☠] •☠NIGHT KILLER👽☠*', url : "https://Wa.me/2349074940228", merchant_url : "https://Wa.me/2349074940228" }`}
 ],
 "messageParamsJson": ""
 }
@@ -2886,9 +2886,9 @@ break
 //=================================================//
 case "ddosmenu": {
 let itsmenu = `
-  *[🕷️] •😈NIGHT KILLER😈*
+  *[☠] •☠NIGHT KILLER☠*
 
-⭔ Creator : NIGHT🕷️😈
+⭔ Creator : NIGHT☠☠
 ⭔ Library : WS-Baileys
 ⭔ Type : Case
 ⭔ Status : Ready
@@ -2922,7 +2922,7 @@ interactiveMessage: {
 "isForwarded": true,
 "forwardedNewsletterMessageInfo": {
 "newsletterJid": '0@newsletter',
-"newsletterName": '😈NIGHT KILLER😈',
+"newsletterName": '☠NIGHT KILLER☠',
 "serverMessageId": 1
 },
 },
@@ -2935,7 +2935,7 @@ interactiveMessage: {
 "text": ""
 },
 "footer": {
-"text": "NIGHT🕷️😈"
+"text": "NIGHT☠☠"
 },
 "nativeFlowMessage": {
 "buttons": [
@@ -2977,7 +2977,7 @@ interactiveMessage: {
 },
 "nativeFlowMessage": {
 "buttons": [
-{ "name": "cta_url", "buttonParamsJson": `{ display_text : 'NIGHT🕷️😈', url : "https://Wa.me/2349074940228", merchant_url : "https://Wa.me/2349074940228" }`}
+{ "name": "cta_url", "buttonParamsJson": `{ display_text : 'NIGHT☠☠', url : "https://Wa.me/2349074940228", merchant_url : "https://Wa.me/2349074940228" }`}
 ],
 "messageParamsJson": ""
 }
@@ -3008,8 +3008,8 @@ let totalCases = caseCount,
 listCases = caseNames.join('\n⭔ ');
 
 joreply(`
-╭❐  ⌜ NIGHT KILLER�⌟  ❐
-│⭔ Creator : NIGHT�🕷️😈
+╭❐  ⌜ NIGHT KILLER👽⌟  ❐
+│⭔ Creator : NIGHT👽☠☠
 │⭔ Library : WS-Baileys
 │⭔ Type : Case
 │⭔ Status : Maintenance 
@@ -3035,22 +3035,22 @@ joreply(jsonData)
 break
 //=================================================//
 case 'sc': case 'script': {
-joreply(`🌤️😈NIGHT KILLER�😈 SCRIPT IS PRIVATE
+joreply(`🌤️☠NIGHT KILLER👽☠ SCRIPT IS PRIVATE
 TO BUY THE SCRIPT......CONTACT👇🏽
 
 ❕MY OWNER WA.CONTACT: ${global.url}
-DON'T DM IF YOU'RE NOT READY TO BUY THE SCRIPT🙂🕷️😈🕸️
+DON'T DM IF YOU'RE NOT READY TO BUY THE SCRIPT🙂☠☠🕸️
 
 `)
 }
 break
 //=================================================//
 case 'owner': case 'botowner':
-let namaown = `NIGHT🕷️😈`
+let namaown = `NIGHT☠☠`
 var contact = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "contactMessage": {
 "displayName": `${namaown}`,
-"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:;;;;\nFN:${namaown}\nitem1.TEL;waid=${global.ownMain}:+${global.ownMain}\nitem1.X-ABLabel:Ponsel\nX-WA-BIZ-DESCRIPTION:[[ ༑ 😈NIGHT KILLER😈 ༑ ]]\nX-WA-BIZ-NAME: [[ ༑ 😈NIGHT KILLER😈 ༑ ]]\nEND:VCARD`,
+"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:;;;;\nFN:${namaown}\nitem1.TEL;waid=${global.ownMain}:+${global.ownMain}\nitem1.X-ABLabel:Ponsel\nX-WA-BIZ-DESCRIPTION:[[ ༑ ☠NIGHT KILLER☠ ༑ ]]\nX-WA-BIZ-NAME: [[ ༑ ☠NIGHT KILLER☠ ༑ ]]\nEND:VCARD`,
 }
 }), { userJid: m.chat, quoted: m })
 ryozingod.relayMessage(m.chat, contact.message, { messageId: contact.key.id })
@@ -3221,19 +3221,19 @@ break
 case 'self': {
 if (!isDeveloper) return joreply(mess.owner)
 ryozingod.public = false
-joreply('NIGHT🕷️😈 SET TO PRIVATE BOSS')
+joreply('NIGHT☠☠ SET TO PRIVATE BOSS')
 }
 break
 //=================================================//
 case 'runtime':
-                let runtimetext = ` 😈NIGHT KILLER😈 Have Been Running For ${runtime(process.uptime())}`
+                let runtimetext = ` ☠NIGHT KILLER☠ Have Been Running For ${runtime(process.uptime())}`
                 ryozingod.readMessages(m.chat, {
                     text: runtimetext,
                     contextInfo: {
                         externalAdReply: {
                             showAdAttribution: true,
-                            title: `😈NIGHT KILLER😈`,
-                            body: `NIGHT😈`,
+                            title: `☠NIGHT KILLER☠`,
+                            body: `NIGHT☠`,
                            thumbnailUrl: 'media/overlaid.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
