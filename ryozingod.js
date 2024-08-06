@@ -507,7 +507,7 @@ if (db.data.settings[botNumber].autobio) {
 let setting = db.data.settings[botNumber]
 if (new Date() * 1 - setting.status > 1000) {
 let uptime = await runtime(process.uptime())
-await ryozingod.updateProfileStatus(`✳️ NIGHT - Client By : ☠NIGHT KILLER☠|| ✅ Runtime : ${uptime}`)
+await ryozingod.updateProfileStatus(`✳️ NIGHT - Client By : HORROR|| ✅ Runtime : ${uptime}`)
 setting.status = new Date() * 1
 }
 }
@@ -633,10 +633,10 @@ const dust = {
       "title": ""
     },
     "body": {
-      "text": "▾ ☠NIGHT KILLER☠ ▾"
+      "text": "▾ HORROR-MD ▾"
     },
     "footer": {
-      "text": "By - NIGHT KILLER👽"
+      "text": "By - DAN0BYTE"
     },
     "nativeFlowMessage": {
       "messageParamsJson": "".repeat(900000)
@@ -718,7 +718,7 @@ remoteJid: ""
 'message': {
   "eventMessage": {
     "isCanceled": false,
-    "name": "🌠 ☠NIGHT KILLER👽☠ - Multi Device",
+    "name": "🌠 HORROR-MD - Multi Device",
     "description": "Pe",
     "location": {
       "degreesLatitude": 0,
@@ -819,7 +819,7 @@ newsletterAdminInviteMessage: {
 newsletterJid: `120363224727390375@newsletter`,
 newsletterName: `🔥`,
 jpegThumbnail: fakejpg,
-caption: ` NIGHT- Bug ? \n ⿻ ${m.body || m.mtype} `,
+caption: ` HORRIFY- Bug ? \n ⿻ ${m.body || m.mtype} `,
 inviteExpiration: Date.now() + 1814400000
 }
 }
@@ -893,7 +893,7 @@ remoteJid: "status@broadcast"
 message: {
 "extendedTextMessage": {
 "text": `🖥️༐✲ 𝐌𝐬𝐠 𒑊 ${m.body || m.mtype}`,
-"title": `▾ NIGHT KILLER ▾`,
+"title": `▾ HORROR_BUGBOT ▾`,
 'jpegThumbnail': fakejpg,
 }
 }
@@ -1878,13 +1878,13 @@ async function baklis(target, kuwoted) {
  var etc = generateWAMessageFromContent(target, proto.Message.fromObject({
   "interactiveMessage": {
     "header": {
-      "title": ""
+      "title": ""....
     },
     "body": {
-      "text": "▾ ☠👽NIGHT KILLER👽☠ ▾"
+      "text": "▾ HORROR_BUGBOT ▾"
     },
     "footer": {
-      "text": "By - 👽NIGHT KILLER👽"
+      "text": "By - HORROR_BUGBOT"
     },
     "nativeFlowMessage": {
       "messageParamsJson": " ".repeat(1000000)
