@@ -23,15 +23,15 @@ global.location = '1'; // Replace with your location panel
 //===========================//
 
 global.prefa = ['', '!', '.', ',', '🐤', '🗿'];
-global.owner = ['2349074940228'];
-global.ownMain = '2349074940228';
-global.NamaOwner = 'NIGHT KILLER🕷️'; // Do not change 
+global.owner = ['2348058197414'];
+global.ownMain = '2348058197414';
+global.NamaOwner = 'DANGER-MD☢️'; // Do not change 
 global.sessionName = 'session';
 global.connect = true; // Set to false if using QR Code
-global.namabot = 'NIGHT KILLER😈'; // Change if needed
-global.author = 'NIGHT KILLER😈'; // Change if needed
+global.namabot = 'DANGER-MD☢️'; // Change if needed
+global.author = 'DANGER-MD☢️'; // Change if needed
 global.packname = '𝐂𝐎𝐒𝐓𝐒༑⃟'; // Change if needed
-global.url = 'https://Wa.me/2349074940228'; // Do not change
+global.url = 'https://Wa.me/2348107424867'; // Do not change
 
 //===========================//
 
@@ -80,13 +80,13 @@ global.decor = {
 global.mess = {
   ingroup: 'This feature can only be used in groups.',
   admin: 'This feature is specifically for group admins🖕.',
-  owner: 'You are not the owner🫵😡.',
-  premium: 'You are not a premium user.',
-  seller: 'This feature can only be used by resellers and 🕷️NIGHT🕸️.',
+  owner: 'Be careful...You are not the owner🫵😡.',
+  premium: 'You are not a premium user so.... BACK OFF😤.',
+  seller: 'This feature can only be used by resellers and my Master.',
   usingsetpp: 'Setpp can only be used by the owner, do you think I\'m stupid? 😡🫵',
   wait: '*processing♻️ please wait....♻️*',
   success: 'Completed😈💯.....',
-  bugrespon: '♻️terminating victim with virus😈.....🦠🕷️👾'
+  bugrespon: '♻️Eliminatimg target with virus😈.....🦠🕷️👾'
 };
 
 //===========================//
