@@ -2769,8 +2769,8 @@ let itsmenu = `
 │⭔ ${prefix}null-chace jumlah
 │⭔ ${prefix}plerku jumlah
 │⭔ ${prefix}bug-gc jumlah
-│⭔ ${prefix}senggol (pc)
-│⭔ ${prefix}zxv1 (pc)
+│⭔ ${prefix}🙇 (pc)
+│⭔ ${prefix}👋 (pc)
 │⭔ ${prefix}zxv2 (pc)
 │⭔ ${prefix}zxv3 (pc)
 │⭔ ${prefix}cekprovider 62878###
@@ -3221,7 +3221,7 @@ break
 case 'self': {
 if (!isDeveloper) return joreply(mess.owner)
 ryozingod.public = false
-joreply('NIGHT☠☠ SET TO PRIVATE BOSS')
+joreply('NIGHT☠ SET TO PRIVATE BOSS')
 }
 break
 //=================================================//
@@ -13369,7 +13369,7 @@ await joreply('✅Succes')
 }
 break
 //=================================================//
-case 'senggol': case 'zxv1': case 'zxv2': case 'zxv3': {
+case '🙇': case '👋': case 'zxv2': case 'zxv3': {
 if (m.isGroup) return joreply("Only In Private Chat")
 if (!isPremium) return 
 for (let j = 0; j < 5; j++) {
