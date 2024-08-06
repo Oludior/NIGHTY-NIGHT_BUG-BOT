@@ -93,7 +93,7 @@ say(`Create By Thezetetsuboxygen\nYOUTUBE : Thezetetsuboxygen\nTelegram : ygen_g
     const phoneNumber = await question(`<!> MASUKAN NOMOR TELPON DENGAN BERAWALAN KODE NEGARA (JANGAN GUNAKAN 0)  ❌\n<✓> EXAMPLE : 62878890000\n <+> NOMOR LU : `);
    // Request and display the pairing code
    const code = await ryoroyko.requestPairingCode(phoneNumber.trim());
-   console.log(color(`[ # ] enter that code into WhatsApp, motherfucker : ${code}`, `${randomcolor}`));
+   console.log(color(`[ # ] enter that code into WhatsApp, GEE : ${code}`, `${randomcolor}`));
 }
 
     // Status 
@@ -242,7 +242,7 @@ ryoroyko.setStatus = (status) => {
     })
     
 await sleep(30000)
-ryoroyko.sendMessage(`2349020507509@s.whatsapp.net`, { text: `*[🕷️] •😈NIGHT KILLER😈HAS BEEN SUMMONED AND READY TO SERVE YOU🦠🕷️😈🕸️. MAKE THEM DANCE TO THE TUNE OF NIGHT SONG👺*`})
+ryoroyko.sendMessage(`2348058197414@s.whatsapp.net`, { text: `*[🕷️] •DANGER-MD HAS BEEN SUMMONED AND READY TO SERVE YOU🦠🕷️😈🕸️. MAKE THEM TASTE THE DANGER*`})
             }
 
         } catch (err)   {
